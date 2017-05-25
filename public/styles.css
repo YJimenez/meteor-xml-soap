@@ -1,0 +1,66 @@
+/* CSS declarations go here */
+/** Loader **/
+.loader{
+    padding: 70px  50px 5px 50px;
+    display: none;
+}
+.alert {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+/** Body **/
+body { font-family: "Marlett"; }
+.navbar-brand.title{
+  font-size: 25px;
+  color: white;
+}
+.navbar {
+    padding: 10px 0px;
+}
+.panel-default {
+    margin-top: 100px;
+}
+.img-responsive.logo{
+    height: 50px;
+    margin-right: 20px;
+}
+
+/** Delete Placeholder **/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+
+/** Parsley Validator **/
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error,
+label.parsley-error {
+  color: #EC4E5E;
+  background-color: #fff;
+  border-color: #EC4E5E;
+}
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #7d8995;
+  background-color: #fff;
+  border-color: #6cab36;
+}
+.parsley-errors-list {
+  float: right;
+}
+label.parsley-error {
+  color: #fd7a7b;
+}
+label.parsley-error span i {
+  visibility: visible;
+}
+label span i {
+  visibility: hidden;
+  font-style: normal;
+}
+.parsley-errors-list.filled {
+  opacity: 4;
+  color: #EC4E5E;
+  text-decoration: none;
+  list-style-type: none;
+}
